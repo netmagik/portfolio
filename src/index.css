@@ -1,4 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+}
+:root {
+    --bg-color: black;
+    --color-primary: #00a8ff;
+    --color-secondary: #00d8ff;
+    --color-tertiary: #00ffd8;
+    --color-quaternary: #ffd800;
+    --color-white: #ffffff;
+    --color-light: rgba(255, 255, 255, 0.5);
+    --transition: all 400ms ease;
+    --container-width-lg: 75%;
+    --container-width-md: 86%;
+    --container-width-sm: 90%;
+}
+
 body {
-    background: black;
-    color: white;
+    background: var(--bg-color);
+    color: var(--color-white);
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.7;
+}
+
+/* ********** General Styles ************/
+
+.container {
+    width: var(--container-width-lg);
+    max-width: var(--container-width-lg);
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+section {
+    margin-top: 8rem;
+    height: 100vh;
+}
+
+section > h2,
+section > h5 {
+    text-align: center;
+    color: var(--color-light);
+}
+
+
+.btn {
+    width: max-content;
+    display: inline-block;
+    color: var(--color-primary);
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 1px solid var(--color-primary);
+    transition: var(--transition);
+}
+
+.btn:hover {
+    background: var(--color-white);
+    color: var(--color-primary);
+    border-color: transparent;
+}
+
+.btn-primary {
+    background: var(--color-primary);
+    color: var(--color-white);
+}
+
+img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+a {
+    color: var(--color-primary);
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+a:hover {
+    color: var(--color-secondary);
+}
+
+.text-light {
+    color: var(--color-white);
+}
+
+/* ********** Media Queries (Medium Dev) ************/
+
+@media screen and (max-width: 1024px) {
+    .container {
+        width: var(--container-width-md);
+        max-width: var(--container-width-md);
+    }
+    section {
+        margin-top: 6rem;
+    }
+}
+
+/* ********** Media Queries (Small Dev) ************/
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: var(--container-width-sm);
+        max-width: var(--container-width-sm);
+    }
+    section{
+        margin-top: 6rem;
+    }
+    section > h2 {
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+    }
 }
