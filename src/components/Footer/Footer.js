@@ -1,25 +1,31 @@
 import React from "react";
 import './footer.css';
+import {FiTwitter, FiGithub, FiLinkedin, FiCodepen } from "react-icons/fi";
 
 const Footer = () => {
     return (
         <footer>
-        <div className="footer-container">
-            <div className="footer-left">
-            <h2>Matthew Davis</h2>
-            <h3>Full Stack Web Developer</h3>
-            <div className="footer-social">
-                <a href="https://www.linkedin.com/in/matthew-davis-a8a8b9b5/" target="_blank" rel="noopener noreferrer">
-                    <i className="fab fa-linkedin"></i>
-                </a>
+            <a href="#" className="footer-logo">Logo</a>
+            <ul className="permalinks">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div className="footer-socials">
+                <a href="#" target="_blank" alt="Twitter"><FiTwitter /></a>
+                <a href="#" target="_blank" alt="Github"><FiGithub /></a>
+                <a href="#" target="_blank" alt="LinkedIn"><FiLinkedin /></a>
+                <a href="#" target="_blank" alt="Codepen"><FiCodepen /></a>
             </div>
+
+            <div className="footer-copyright">
+                <small>
+                    &copy; Irina Blumenfeld. All rights reserved.
+                </small>
             </div>
-            <div className="footer-right">
-            <div className="footer-right-container">
-                <h3>Contact</h3>
-            </div>
-            </div>
-        </div>
         </footer>
 
     );
