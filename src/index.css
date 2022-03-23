@@ -11,7 +11,9 @@
 }
 :root {
     --bg-color: black;
+    --bg-variant: #1a1a1a;
     --color-primary: #00a8ff;
+    --color-primary-variant: #5c7a88;
     --color-secondary: #00d8ff;
     --color-tertiary: #00ffd8;
     --color-quaternary: #ffd800;
@@ -21,6 +23,14 @@
     --container-width-lg: 75%;
     --container-width-md: 86%;
     --container-width-sm: 90%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
 
 body {
@@ -36,7 +46,6 @@ body {
     width: var(--container-width-lg);
     max-width: var(--container-width-lg);
     margin: 0 auto;
-    padding: 0 2rem;
 }
 
 h1,
@@ -53,12 +62,20 @@ h1 {
 
 section {
     margin-top: 8rem;
-    height: 100vh;
 }
 
 section > h2,
 section > h5 {
     text-align: center;
+    color: var(--color-light);
+}
+
+section > h2 {
+    color: var(--color-primary);
+    margin-bottom: 3rem;
+}
+
+.text-light {
     color: var(--color-light);
 }
 
@@ -71,6 +88,7 @@ section > h5 {
     cursor: pointer;
     border: 1px solid var(--color-primary);
     transition: var(--transition);
+    padding: 0.5rem 1rem;
 }
 
 .btn:hover {
@@ -82,13 +100,23 @@ section > h5 {
 .btn-primary {
     background: var(--color-primary);
     color: var(--color-white);
+    padding: 0.5rem 1rem;
+    border-radius: 0.4rem;
+    border: 1px solid var(--color-primary);
+    transition: var(--transition);
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background: var(--color-primary-variant);
+    color: var(--color-white);
+    border-color: transparent;
 }
 
 img {
     display: block;
     width: 100%;
     object-fit: cover;
-    border-radius: 50%;
 }
 
 a {
@@ -111,6 +139,7 @@ a:hover {
     .container {
         width: var(--container-width-md);
         max-width: var(--container-width-md);
+        margin: 0 auto;
     }
     section {
         margin-top: 6rem;
