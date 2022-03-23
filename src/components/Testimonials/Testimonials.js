@@ -6,7 +6,7 @@ import Mouse from '../../assets/Mouse-Class-Travel.jpg';
 import Eye from '../../assets/logo-png.png';
 
 // import Swiper core and required modules
-import { Pagination, A11y } from 'swiper';
+import { Autoplay, Pagination, A11y } from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -45,10 +45,13 @@ const Testimonials = () => {
             <h5>Review from clients</h5>
             <h2>Testimonials</h2>
             <Swiper className="container container-testimonials"
-                modules={[ Pagination, A11y]}
-                spaceBetween={1}
+                modules={[ Autoplay, Pagination, A11y]}
+                spaceBetween={30}
                 slidesPerView={1}
-                navigation
+                autoplay={{
+                    delay: 2500,
+                    disableOnInteraction: true,
+                }}
                 pagination={{ clickable: true }}
             >
                 
