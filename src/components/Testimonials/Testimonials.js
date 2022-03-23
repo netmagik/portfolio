@@ -29,54 +29,24 @@ const Testimonials = () => {
             review: 'I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.',
         },
     ]
-    
+
     return (
         <section id="testimonials">
             <h5>Review from clients</h5>
             <h2>Testimonials</h2>
             <div className="container container-testimonials">
-                <article className="testimonial">
-                    <div className="client-avatar">
-                        <img src={UCF} alt="UCF" />
-                        <h5 className="client-name">UCF</h5>
-                    </div>
-                    <small className="client-review">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, id, necessitatibus incidunt perspiciatis dolorem consequuntur dolores voluptates eum alias vitae sapiente maiores repudiandae totam? Earum, atque est! Expedita, autem quia.
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse voluptate asperiores corrupti ipsa architecto quas praesentium perspiciatis placeat iste cum eum magnam dolores, amet voluptates provident dolorem, sit porro nesciunt.
-                    </small>
-                </article>
-                <article className="testimonial">
-                    <div className="client-avatar">
-                        <img src={UCF} alt="UCF" />
-                        <h5 className="client-name">UCF</h5>
-                    </div>
-                    <small className="client-review">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, id, necessitatibus incidunt perspiciatis dolorem consequuntur dolores voluptates eum alias vitae sapiente maiores repudiandae totam? Earum, atque est! Expedita, autem quia.
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse voluptate asperiores corrupti ipsa architecto quas praesentium perspiciatis placeat iste cum eum magnam dolores, amet voluptates provident dolorem, sit porro nesciunt.
-                    </small>
-                </article>
-                <article className="testimonial">
-                    <div className="client-avatar">
-                        <img src={UCF} alt="UCF" />
-                        <h5 className="client-name">UCF</h5>
-                    </div>
-                    <small className="client-review">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, id, necessitatibus incidunt perspiciatis dolorem consequuntur dolores voluptates eum alias vitae sapiente maiores repudiandae totam? Earum, atque est! Expedita, autem quia.
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse voluptate asperiores corrupti ipsa architecto quas praesentium perspiciatis placeat iste cum eum magnam dolores, amet voluptates provident dolorem, sit porro nesciunt.
-                    </small>
-                </article>
-                <article className="testimonial">
-                    <div className="client-avatar">
-                        <img src={UCF} alt="UCF" />
-                        <h5 className="client-name">UCF</h5>
-                    </div>
-                    <small className="client-review">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, id, necessitatibus incidunt perspiciatis dolorem consequuntur dolores voluptates eum alias vitae sapiente maiores repudiandae totam? Earum, atque est! Expedita, autem quia.
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse voluptate asperiores corrupti ipsa architecto quas praesentium perspiciatis placeat iste cum eum magnam dolores, amet voluptates provident dolorem, sit porro nesciunt.
-                    </small>
-                </article>
-
-                
+                {data.map(({avatar, name, review}, index) => {
+                    return (
+                        <article className="testimonial" key={index}>
+                            <div className="client-avatar">
+                                <img src={avatar} alt={name} />
+                            </div>
+                            <h5 className="client-name">{name}</h5>
+                            <small className="client-review">{review}</small>
+                        </article>
+                    )
+                })
+            }
             </div>
         </section>
     );
