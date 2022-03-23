@@ -10,6 +10,7 @@ import About from "./components/About/About";
 
 const App = () => {
     return (
+        <>
         <div className="container">
              <Header />
              <Nav />
@@ -18,9 +19,9 @@ const App = () => {
              <Projects />
             <Testimonials />
             <Contact />
-            <Footer />
-
         </div>
+        <Footer />
+        </>
     );
 }
 

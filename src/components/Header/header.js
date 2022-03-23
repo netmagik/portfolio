@@ -9,13 +9,10 @@ const Header = () => {
     return (
         <header>
             <div className="header-container">
-                <h1>Matthew Davis</h1>
+                <h1>Irina Blumenfeld</h1>
                 <h2>Full Stack Web Developer</h2>
                 <CTA />
                 <HeaderSocial />
-                <div className="photo">
-                    <img src={Photo} alt="Irina" />
-                </div>
                 <a href="#contact" className="scroll-down">Scroll Down</a>
             </div>
         </header>
