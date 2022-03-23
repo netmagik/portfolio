@@ -5,6 +5,16 @@ import CCC from '../../assets/CCC-Logoa.png';
 import Mouse from '../../assets/Mouse-Class-Travel.jpg';
 import Eye from '../../assets/logo-png.png';
 
+// import Swiper core and required modules
+import { Pagination, A11y } from 'swiper';
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
+
+
 const Testimonials = () => {
 
     const data = [
@@ -34,20 +44,27 @@ const Testimonials = () => {
         <section id="testimonials">
             <h5>Review from clients</h5>
             <h2>Testimonials</h2>
-            <div className="container container-testimonials">
+            <Swiper className="container container-testimonials"
+                modules={[ Pagination, A11y]}
+                spaceBetween={1}
+                slidesPerView={1}
+                navigation
+                pagination={{ clickable: true }}
+            >
+                
                 {data.map(({avatar, name, review}, index) => {
                     return (
-                        <article className="testimonial" key={index}>
+                        <SwiperSlide className="testimonial" key={index}>
                             <div className="client-avatar">
                                 <img src={avatar} alt={name} />
                             </div>
                             <h5 className="client-name">{name}</h5>
                             <small className="client-review">{review}</small>
-                        </article>
+                        </SwiperSlide>
                     )
                 })
             }
-            </div>
+            </Swiper>
         </section>
     );
 };

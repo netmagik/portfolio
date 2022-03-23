@@ -1,5 +1,6 @@
 .container.container-testimonials {
-    width: 40%;
+    width: 60%;
+    padding-bottom: 4rem;
 }
 
 .client-avatar {
@@ -27,13 +28,12 @@
     margin: 0.8rem auto 0;
 }
 
-
-/********** Media Queries (Med Dev) ************/
-@media screen and (max-width: 1024px) {
-   .container.container.container-testimonials {
-       width: 60%;
-   }
- }
+.swiper-pagination-clicable, 
+.swiper-pagination-bullet {
+    background: var(--color-primary) !important;
+    width: 10px !important;
+    height: 10px !important;
+}
 
  /********** Media Queries (Small Dev) ************/
 @media screen and (max-width: 600px) {
