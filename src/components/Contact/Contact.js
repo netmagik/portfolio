@@ -2,6 +2,7 @@ import React, {useRef} from "react";
 import './contact.css';
 import {AiOutlineMail} from "react-icons/ai";
 import emailjs from 'emailjs-com';
+import Divider from "../Divider/Divider";
 
 const Contact = () => {
     const form = useRef();
@@ -17,6 +18,7 @@ const Contact = () => {
 
     return (
         <section id="contact">
+            <Divider />
             <h2>Contact Me</h2>
             <div className="container contact-container">
                 <div className="contact-options">

@@ -13,7 +13,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
-
+import Divider from '../Divider/Divider';
 
 const Testimonials = () => {
 
@@ -42,6 +42,7 @@ const Testimonials = () => {
 
     return (
         <section id="testimonials">
+            <Divider />
             <h2>Testimonials</h2>
             <Swiper className="container container-testimonials"
                 modules={[ Autoplay, Pagination, A11y]}

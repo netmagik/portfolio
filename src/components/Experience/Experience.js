@@ -1,10 +1,12 @@
 import React from "react";
 import './experience.css';
 import {BsFillCheckCircleFill} from 'react-icons/bs';
+import Divider from "../Divider/Divider";
 
 const Experience = () => {
     return (
         <section id="experience">
+            <Divider />
             <h2>Experience</h2>
             <div className="container experience-container">
                 <div className="experience-frontend">
