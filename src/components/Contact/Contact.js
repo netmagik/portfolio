@@ -20,11 +20,13 @@ const Contact = () => {
             <h2>Contact Me</h2>
             <div className="container contact-container">
                 <div className="contact-options">
+                <a href="mailto:irina@netmagik.com" target="_blank">
                     <article className="contact-option">
                         <AiOutlineMail className="contact-icon"/>
                         <h4>Email</h4>
-                        <a href="mailto:irina@netmagik.com" target="_blank">Send a message</a>
+                        <p>Send a Message</p>
                     </article>
+                </a>
                     
                 </div>
                 {/* End of Contact Options */}
