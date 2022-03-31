@@ -5,15 +5,15 @@ import {FiTwitter, FiGithub, FiLinkedin, FiCodepen } from "react-icons/fi";
 const Footer = () => {
     return (
         <footer>
-            <a href="#" className="footer-logo">Irina Blumenfeld</a>
-            <ul className="permalinks">
-                <li><a href="#">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#testimonials">Testimonials</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+            <a href="#home" className="footer-logo">Irina Blumenfeld</a>
+            <div className="permalinks">
+                <a href="#" className="border-effect">Home</a>
+                <a href="#about" className="border-effect">About</a>
+                <a href="#experience" className="border-effect">Experience</a>
+                <a href="#projects" className="border-effect">Projects</a>
+                <a href="#testimonials" className="border-effect">Testimonials</a>
+                <a href="#contact" className="border-effect">Contact</a>
+            </div>
             <div className="footer-socials">
                 <a href="#" target="_blank" alt="Twitter"><FiTwitter /></a>
                 <a href="#" target="_blank" alt="Github"><FiGithub /></a>
