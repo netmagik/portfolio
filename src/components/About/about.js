@@ -17,18 +17,24 @@ const About = () => {
                 </div>
                 <div className="about-content">
                     <div className="about-cards">
+                    <a href="#testimonials">
                         <article className="about-card">
                             <FiUsers className="about-icon"/>
                             <h5>Testimonials</h5>
                         </article>
+                    </a>
+                    <a href="#experience">
                         <article className="about-card">
                             <BiAward className="about-icon"/>
                             <h5>Experience</h5>
                         </article>
+                    </a>
+                    <a href="#projects">
                         <article className="about-card">
                             <AiOutlineFolderOpen className="about-icon"/>
                             <h5>Projects</h5>
                         </article>
+                    </a>
                     </div>
                     <p>
                         Lorem, ipsum dolor. Lorem ipsum dolor sit amet consectetur adipisicing elit.    Lorem ipsum dolor sit amet consectetur adipisicing elit.    

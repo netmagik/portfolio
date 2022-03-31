@@ -48,6 +48,7 @@ const Projects = () => {
     return (
         <section id="projects">
             <h2>Projects</h2>
+            <p className="sub-title">react apps</p>
             <div className="container projects-container">
                {
                      images.map(({id, image, title, github, demo}) => {
@@ -66,9 +67,10 @@ const Projects = () => {
                          );
                      })
                 }
-            </div>  
+            </div>
+            <p className="sub-title">WordPress Websites</p>  
         </section>
-    );
+    ); 
 }
 
 export default Projects;
