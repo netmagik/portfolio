@@ -7,16 +7,16 @@ import {FaCodepen} from "react-icons/fa";
 const headerSocials = () => { 
     return (
         <div className="header-socials">
-        <a href="https://www.linkedin.com/in/matthew-c-davis-b9a9b917b/" target="_blank">
+        <a href="https://www.linkedin.com/pub/irina-blumenfeld/4/a99/a15" target="_blank">
             <BsLinkedin />
         </a>
-        <a href="https://www.linkedin.com/in/matthew-c-davis-b9a9b917b/" target="_blank">
+        <a href="https://github.com/netmagik/" target="_blank">
             <FaGithub />
         </a>
-        <a href="https://www.linkedin.com/in/matthew-c-davis-b9a9b917b/" target="_blank">
+        <a href="https://www.twitter.com/irinablumenfeld" target="_blank">
             <FiTwitter />
         </a>
-        <a href="https://www.linkedin.com/in/matthew-c-davis-b9a9b917b/" target="_blank">
+        <a href="https://codepen.io/netmagik/" target="_blank">
             <FaCodepen />
         </a>
         </div>
