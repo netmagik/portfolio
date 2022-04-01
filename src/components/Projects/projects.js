@@ -121,7 +121,7 @@ const Projects = () => {
                                 </div>
                                 <h3>{title}</h3>
                                 <div className="projects-item-cta">
-                                    <a href={about} target="_blank" className="btn">About The Project
+                                    <a href={about} target="_blank" className="btn about">About The Project
                                     </a>                                
                                 </div>
                             </article>

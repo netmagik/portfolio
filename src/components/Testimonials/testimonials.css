@@ -4,7 +4,7 @@
 }
 
 .client-avatar {
-    width: 4rem;
+    width: 6rem;
     aspect-ratio: 1/1;
     overflow: hidden;
     border-radius: 50%;
@@ -23,9 +23,15 @@
 .client-review {
     color: var(--color-light);
     font-weight: 300;
+    font-size: 0.9rem;
     width: 80%;
     display: block;
     margin: 0.8rem auto 0;
+}
+
+h5 {
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
 }
 
 .swiper-pagination-clicable, 
