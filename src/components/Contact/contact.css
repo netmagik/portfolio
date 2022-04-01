@@ -57,6 +57,11 @@ input, textarea {
     color: var(--color-white);
 }
 
+form .btn {
+    padding: 1rem;
+    font-size: 1.1rem;
+}
+
  
 /********** Media Queries (Med Dev) ************/
 @media screen and (max-width: 1024px) {
