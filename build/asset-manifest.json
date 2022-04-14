@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f906a504.css",
+    "main.js": "/static/js/main.50bb67ac.js",
+    "static/media/AI-Screens.png": "/static/media/AI-Screens.dd360a1561d2e2e642ad.png",
+    "static/media/CASL-Screens.png": "/static/media/CASL-Screens.abc0ad498ef734fbd8d6.png",
+    "static/media/EyePhy-Screens.png": "/static/media/EyePhy-Screens.22213ca5bc422eddad72.png",
+    "static/media/MouseClass-Screens.png": "/static/media/MouseClass-Screens.ebc7a4bdb3df10393c28.png",
+    "static/media/Mouse-Class-logo.png": "/static/media/Mouse-Class-logo.408cdece6ff2e7641e7f.png",
+    "static/media/irina.jpg": "/static/media/irina.5e26d5bb3ac30e0b54e0.jpg",
+    "static/media/covid-chart.jpeg": "/static/media/covid-chart.6446985e8b9437b89bd7.jpeg",
+    "static/media/DataGrid.jpeg": "/static/media/DataGrid.05fa4296a1c326a1ab27.jpeg",
+    "static/media/subreddit.jpeg": "/static/media/subreddit.8bb5919e2c2cd65a0047.jpeg",
+    "static/media/weather.jpeg": "/static/media/weather.bb973146e9060bf6f9b6.jpeg",
+    "static/media/shopping-cart.jpeg": "/static/media/shopping-cart.45da606733197cf7033b.jpeg",
+    "static/media/AI-logo.png": "/static/media/AI-logo.34960371b825b50463ca.png",
+    "static/media/wiki.jpeg": "/static/media/wiki.8f488aab28b5f37b58f0.jpeg",
+    "static/media/CCC-Logo.png": "/static/media/CCC-Logo.70352d5d0c25b535ede3.png",
+    "index.html": "/index.html",
+    "main.f906a504.css.map": "/static/css/main.f906a504.css.map",
+    "main.50bb67ac.js.map": "/static/js/main.50bb67ac.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f906a504.css",
+    "static/js/main.50bb67ac.js"
+  ]
+}
