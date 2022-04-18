@@ -5,6 +5,9 @@ import emailjs from 'emailjs-com';
 import Divider from "../Divider/Divider";
 
 const Contact = () => {
+
+    const [isSuccessfullySubmitted, setIsSuccessfullySubmitted] = React.useState(false);
+
     const form = useRef();
 
     const sendEmail = (e) => {
@@ -13,6 +16,9 @@ const Contact = () => {
       emailjs.sendForm('service_t9g4tub', 'template_lq8or8g', form.current, 'MPS_OTwbDTg3SSRFr')
     
       e.target.reset();
+      console.log("Submitting complete");
+
+      setIsSuccessfullySubmitted(true);
       
     };
 
@@ -37,6 +43,9 @@ const Contact = () => {
                     <input type="email" name="email" placeholder="Your Email" required />
                     <textarea name="message" placeholder="Your Message" cols="30" rows="7" required></textarea>
                     <button type="submit" className="btn btn-primary">Send Message</button>
+                    {isSuccessfullySubmitted && (
+                    <div className="success">Form submitted successfully</div>
+                )}
                 </form>
             </div>
         </section>
