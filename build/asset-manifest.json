@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f906a504.css",
-    "main.js": "/static/js/main.4f258600.js",
+    "main.css": "/static/css/main.8393c8ee.css",
+    "main.js": "/static/js/main.057ab8f3.js",
     "static/media/AI-Screens.png": "/static/media/AI-Screens.dd360a1561d2e2e642ad.png",
     "static/media/CASL-Screens.png": "/static/media/CASL-Screens.abc0ad498ef734fbd8d6.png",
     "static/media/EyePhy-Screens.png": "/static/media/EyePhy-Screens.22213ca5bc422eddad72.png",
@@ -17,11 +17,11 @@
     "static/media/wiki.jpeg": "/static/media/wiki.8f488aab28b5f37b58f0.jpeg",
     "static/media/CCC-Logo.png": "/static/media/CCC-Logo.70352d5d0c25b535ede3.png",
     "index.html": "/index.html",
-    "main.f906a504.css.map": "/static/css/main.f906a504.css.map",
-    "main.4f258600.js.map": "/static/js/main.4f258600.js.map"
+    "main.8393c8ee.css.map": "/static/css/main.8393c8ee.css.map",
+    "main.057ab8f3.js.map": "/static/js/main.057ab8f3.js.map"
   },
   "entrypoints": [
-    "static/css/main.f906a504.css",
-    "static/js/main.4f258600.js"
+    "static/css/main.8393c8ee.css",
+    "static/js/main.057ab8f3.js"
   ]
 }
