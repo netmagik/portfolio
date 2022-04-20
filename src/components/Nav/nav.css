@@ -1,5 +1,5 @@
 nav {
-    background: rgba(0,0,0,0.3);
+    background: #49f8f59e;
     width: max-content;
     padding: 0.7rem 1.7rem;
     z-index: 2;
@@ -18,7 +18,7 @@ nav a {
     padding: 0.9rem;
     border-radius: 50%;
     display: flex;
-    color: var(--color-light);
+    color: var(--bg-color);
     font-size: 1.1rem;
 }
 
