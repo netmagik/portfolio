@@ -28,7 +28,7 @@ const Contact = () => {
             <h2>Contact Me</h2>
             <div className="container contact-container">
                 <div className="contact-options">
-                <a href="mailto:irina@netmagik.com" target="_blank">
+                <a href="mailto:irina@netmagik.com" target="_blank" rel="noreferrer">
                     <article className="contact-option">
                         <AiOutlineMail className="contact-icon"/>
                         <h4>Email</h4>
