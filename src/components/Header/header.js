@@ -2,7 +2,6 @@ import React from "react";
 import HeaderSocial from './headerSocials';
 import "./header.css";
 import CTA from './cta';
-import Photo from '../../assets/irina.jpg';
 
 
 const Header = () => {
