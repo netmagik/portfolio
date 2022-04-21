@@ -46,7 +46,6 @@ nav a.active {
 @media screen and (max-width: 600px) {
    nav {
         justify-content: center;
-        width: 90%;
    }
     nav a {
           padding: 0.4rem;
