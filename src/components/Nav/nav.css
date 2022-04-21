@@ -31,3 +31,25 @@ nav a.active {
     color: var(--bg-color);
 }
 
+/********** Media Queries (Med Dev) ************/
+@media screen and (max-width: 1024px) {
+    nav {
+        gap: 1rem;
+        padding: 0.5rem 1rem;
+    }
+    nav a {
+        padding: 0.7rem;
+  }
+ }
+
+ /********** Media Queries (Small Dev) ************/
+@media screen and (max-width: 600px) {
+   nav {
+        justify-content: center;
+        width: 90%;
+   }
+    nav a {
+          padding: 0.4rem;
+          font-size: 0.8rem;
+    }
+ }
