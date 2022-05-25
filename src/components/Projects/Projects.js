@@ -18,7 +18,7 @@ const Projects = () => {
             id: 1,
             image: CovidChart,
             title: 'Covid-19 Chart',
-            desc: 'Covid-19 Cases by Country, State, pulled from data provided by API. Chart of daily data in the US. Ability to sort data by number of cases, deaths, country, state.',
+            desc: 'Covid-19 Cases by Country, State, pulled from data provided by API. Chart of daily data in the US.',
             github: 'https://github.com/netmagik/Covid-Tracker',
             demo: 'https://netmagik.github.io/Covid-Tracker',
         },
@@ -109,7 +109,7 @@ const Projects = () => {
                                     <img className="single-image" src={image} alt={title} />
                                 </div>
                                 <h3>{title}</h3>
-                                <p>{desc}</p>
+                                <p className="desc">{desc}</p>
                                 <div className="projects-item-cta">
                                     <a href={github} target="_blank" className="btn">Github
                                     </a>
@@ -131,7 +131,7 @@ const Projects = () => {
                                     <img className="single-image" src={image} alt={title} />
                                 </div>
                                 <h3>{title}</h3>
-                                <p>{desc}</p>
+                                <p className="desc">{desc}</p>
                                 <div className="projects-item-cta">
                                     <a href={about} target="_blank" className="btn about">Learn More
                                     </a>                                
