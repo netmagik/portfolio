@@ -102,13 +102,14 @@ const Projects = () => {
             <p className="sub-title">react apps</p>
             <div className="container projects-container">
                {
-                     images.map(({id, image, title, github, demo}) => {
+                     images.map(({id, image, title, github, demo, desc}) => {
                          return (
                             <article key={id} className="projects-item">
                                 <div className="projects-item-image">
                                     <img className="single-image" src={image} alt={title} />
                                 </div>
                                 <h3>{title}</h3>
+                                <p>{desc}</p>
                                 <div className="projects-item-cta">
                                     <a href={github} target="_blank" className="btn">Github
                                     </a>
@@ -123,13 +124,14 @@ const Projects = () => {
             <p className="sub-title">WordPress Websites</p>  
             <div className="container websites-container">
                {
-                     websites.map(({id, image, title, about}) => {
+                     websites.map(({id, image, title, about, desc}) => {
                          return (
                             <article key={id} className="projects-item">
                                 <div className="projects-item-image">
                                     <img className="single-image" src={image} alt={title} />
                                 </div>
                                 <h3>{title}</h3>
+                                <p>{desc}</p>
                                 <div className="projects-item-cta">
                                     <a href={about} target="_blank" className="btn about">Learn More
                                     </a>                                
