@@ -21,7 +21,7 @@
 }
 
 .slider {
-    background-color: #ccc;
+    background-color: var(--alt-font-color);
     position: absolute;
     cursor: pointer;
     top: 0;
@@ -32,7 +32,7 @@
 }
 
 .slider:before {
-    background-color: #fff;
+    background-color: var(--font-color);
     content: "";
     height: 28px;
     left: 2px;
@@ -40,6 +40,8 @@
     transition: .4s;
     width: 28px;
 }
+
+
 
 input:checked + .slider:before {
     transform: translateX(24px);
@@ -55,4 +57,8 @@ input:checked + .slider {
 
 .slider.round:before {
     border-radius: 50%;
+}
+
+.slider.round:hover {
+    background-color: var(--color-primary);
 }

@@ -5,7 +5,7 @@ import './lightmode.css';
 const Toggle = () => {
     return (
         <div className="toggle-wrapper">
-            <span>☀️</span>
+            <span>🌒</span>
             <label className="toggle-theme" htmlFor="checkbox">
                 <input
                     type="checkbox"
@@ -13,7 +13,7 @@ const Toggle = () => {
                 />
                 <div className="slider round"></div>
             </label>
-            <span>🌒</span>
+            <span>☀️</span>
         </div>
     )
 }  
