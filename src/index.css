@@ -17,12 +17,18 @@
     --color-secondary: #80f2f4;
     --color-tertiary: #5ec2b7;
     --color-quaternary: #fce181;
-    --color-white: #ffffff;
-    --color-light: #ced4da;
+    --font-color: #ffffff;
+    --alt-font-color: #ced4da;
     --transition: all 400ms ease;
     --container-width-lg: 75%;
     --container-width-md: 86%;
     --container-width-sm: 90%;
+}
+
+[data-theme="light"] {
+    --bg-color: white;
+    --bg-variant: #f8f9fa;
+    --font-color: #343a40;
 }
 
 html {
@@ -35,7 +41,7 @@ html {
 
 body {
     background: var(--bg-color);
-    color: var(--color-white);
+    color: var(--font-color);
     font-family: 'Roboto', sans-serif;
     line-height: 1.7;
 }
@@ -68,7 +74,7 @@ h2 {
     text-transform: uppercase;
     font-size: 1.2rem;
     letter-spacing: 1.5px;
-    color: var(--color-light);
+    color: var(--alt-font-color);
     text-align: center;
     margin: 2rem 0;
 }
@@ -80,7 +86,7 @@ section {
 section > h2,
 section > h5 {
     text-align: center;
-    color: var(--color-light);
+    color: var(--alt-font-color);
 }
 
 section > h2 {
@@ -89,7 +95,7 @@ section > h2 {
 }
 
 .text-light {
-    color: var(--color-light);
+    color: var(--alt-font-color);
 }
 
 
@@ -105,7 +111,7 @@ section > h2 {
 }
 
 .btn:hover {
-    background: var(--color-white);
+    background: var(--font-color);
     color: var(--bg-variant);
     border-color: transparent;
 }
@@ -122,7 +128,7 @@ section > h2 {
 
 .btn-primary:hover {
     background: var(--color-primary-variant);
-    color: var(--color-white);
+    color: var(--font-color);
     border-color: transparent;
 }
 
@@ -143,7 +149,7 @@ a:hover {
 }
 
 .text-light {
-    color: var(--color-white);
+    color: var(--font-color);
 }
 
 /* ********** Media Queries (Medium Dev) ************/
