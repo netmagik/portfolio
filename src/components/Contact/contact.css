@@ -35,7 +35,7 @@
     display: inline-block;
     font-size: 0.9rem;
     line-height: 1rem;
-    color: var(--color-white);
+    color: var(--font-color);
 }
 
 /* Form styling */
@@ -54,7 +54,7 @@ input, textarea {
     border: 2px solid var(--color-primary-variant);
     resize: none;
     transition: var(--transition);
-    color: var(--color-white);
+    color: var(--font-color);
 }
 
 form .btn {
