@@ -1,5 +1,5 @@
 nav {
-    background: #49f8f59e;
+    background: var(--color-tertiary);
     width: max-content;
     padding: 0.7rem 1.7rem;
     z-index: 2;
