@@ -1,5 +1,5 @@
 import React from 'react';
-import '/.lightmode.css';
+import './lightmode.css';
 
 
 const Toggle = () => {
