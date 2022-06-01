@@ -13,16 +13,16 @@ import './lightmode.css';
 
     const currentTheme = localStorage.getItem('theme');
 
-    const prefersDark = 
+    const prefersDark= 
         window.matchMedia &&
         window.matchMedia('(prefers-color-scheme: dark)').matches;
 
-    const defaultDark = 
+    const defaultDark= 
         currentTheme === "dark" || (currentTheme === null && prefersDark);
 
     if (defaultDark) {
         setDark();
-    }
+    } 
 
     const toggleTheme = (e) => {
         if (e.target.checked) {
