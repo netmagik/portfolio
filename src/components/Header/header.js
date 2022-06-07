@@ -8,7 +8,7 @@ import LightMode from "../LightMode/LightMode";
 
 const Header = () => {
     return (
-        <header>
+        <header id="home">
             <div className="header-container">
                 <div className="color-mode">
                     <LightMode />
