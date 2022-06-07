@@ -99,28 +99,6 @@ const Projects = () => {
         <section id="projects">
             <Divider />
             <h2>Projects</h2>
-            <p className="sub-title">react apps</p>
-            <div className="container projects-container">
-               {
-                     images.map(({id, image, title, github, demo, desc}) => {
-                         return (
-                            <article key={id} className="projects-item">
-                                <div className="projects-item-image">
-                                    <img className="single-image" src={image} alt={title} />
-                                </div>
-                                <h3>{title}</h3>
-                                <p className="desc">{desc}</p>
-                                <div className="projects-item-cta">
-                                    <a href={github} target="_blank" className="btn">Github
-                                    </a>
-                                    <a href={demo} target="_blank" className="btn btn-primary">Live Demo</a>
-                                </div>
-                            </article>
-                         );
-                     })
-                }
-            </div>
-           < Divider />
             <p className="sub-title">WordPress Websites</p>  
             <div className="container websites-container">
                {
@@ -141,6 +119,29 @@ const Projects = () => {
                      })
                 }
             </div>
+           < Divider />
+           <p className="sub-title">react apps</p>
+            <div className="container projects-container">
+               {
+                     images.map(({id, image, title, github, demo, desc}) => {
+                         return (
+                            <article key={id} className="projects-item">
+                                <div className="projects-item-image">
+                                    <img className="single-image" src={image} alt={title} />
+                                </div>
+                                <h3>{title}</h3>
+                                <p className="desc">{desc}</p>
+                                <div className="projects-item-cta">
+                                    <a href={github} target="_blank" className="btn">Github
+                                    </a>
+                                    <a href={demo} target="_blank" className="btn btn-primary">Live Demo</a>
+                                </div>
+                            </article>
+                         );
+                     })
+                }
+            </div>
+           
         </section>
     ); 
 }
