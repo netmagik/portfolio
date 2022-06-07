@@ -42,7 +42,7 @@ const About = () => {
                         <br />
                         My passion has always been user experience and web performance. 
                         <br />
-                        My strengths are the experience of working of clients with the ability to transform their vision into reality,
+                        My strengths are the experience of working with clients with the ability to transform their vision into reality,
                         and self-motivation to keep up with the latest technologies.
                     </p>
                     <a href="#contact" className="btn btn-primary">
