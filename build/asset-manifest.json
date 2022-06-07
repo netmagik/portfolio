@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.096201af.css",
-    "main.js": "/static/js/main.7b5cf162.js",
+    "main.js": "/static/js/main.7950b6e9.js",
     "static/media/AI-Screens.png": "/static/media/AI-Screens.dd360a1561d2e2e642ad.png",
     "static/media/CASL-Screens.png": "/static/media/CASL-Screens.abc0ad498ef734fbd8d6.png",
     "static/media/EyePhy-Screens.png": "/static/media/EyePhy-Screens.22213ca5bc422eddad72.png",
@@ -18,10 +18,10 @@
     "static/media/CCC-Logo.png": "/static/media/CCC-Logo.70352d5d0c25b535ede3.png",
     "index.html": "/index.html",
     "main.096201af.css.map": "/static/css/main.096201af.css.map",
-    "main.7b5cf162.js.map": "/static/js/main.7b5cf162.js.map"
+    "main.7950b6e9.js.map": "/static/js/main.7950b6e9.js.map"
   },
   "entrypoints": [
     "static/css/main.096201af.css",
-    "static/js/main.7b5cf162.js"
+    "static/js/main.7950b6e9.js"
   ]
 }
