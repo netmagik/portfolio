@@ -37,14 +37,19 @@ const About = () => {
                     </a>
                     </div>
                     <p>
-                        Lorem, ipsum dolor. Lorem ipsum dolor sit amet consectetur adipisicing elit.    Lorem ipsum dolor sit amet consectetur adipisicing elit.    
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat obcaecati iusto quidem nostrum animi doloribus vitae delectus repudiandae dolores. Expedita at rerum itaque explicabo molestiae sequi sit inventore sapiente eos?
+                        Hi there! My name is Irina, and I'm a passionate developer who loves building things with code. 
+                        I've been building things on the web starting with static sites, and then transitioning to WordPress CMS. 
+                        <br />
+                        My passion has always been user experience and web performance. 
+                        <br />
+                        My strengths are the experience of working of clients with the ability to transform their vision into reality,
+                        and self-motivation to keep up with the latest technologies.
                     </p>
-
                     <a href="#contact" className="btn btn-primary">
-                        Let's Talk
-                    </a>
+                    Let's Talk
+                </a>
                 </div>
+               
             </div>
         </section>
     );

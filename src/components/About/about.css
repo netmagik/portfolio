@@ -63,6 +63,7 @@
 .about-content p {
     margin: 2rem 0 2.6rem;
     color: var(--alt-font-color);
+    font-size: 1.1rem;
 }
 
  
@@ -91,8 +92,8 @@
        grid-template-columns: 1fr;
        gap: 1rem;
    }
-   .about-content {
-       text-align: center;
+   .about-content .btn {
+       left: 30%;
    }
    .about-content p {
        margin: 1.5rem 0;
