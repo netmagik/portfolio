@@ -17,8 +17,7 @@ import './lightmode.css';
         window.matchMedia &&
         window.matchMedia('(prefers-color-scheme: dark)').matches;
 
-    const defaultDark= 
-        currentTheme === "dark" || (currentTheme === null && prefersDark);
+    const defaultDark = currentTheme === "dark" || (currentTheme === null && prefersDark);
 
     if (defaultDark) {
         setDark();
