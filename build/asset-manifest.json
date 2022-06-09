@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.096201af.css",
-    "main.js": "/static/js/main.bf549254.js",
+    "main.js": "/static/js/main.b77b4c7b.js",
     "static/media/AI-Screens.png": "/static/media/AI-Screens.dd360a1561d2e2e642ad.png",
     "static/media/CASL-Screens.png": "/static/media/CASL-Screens.abc0ad498ef734fbd8d6.png",
     "static/media/EyePhy-Screens.png": "/static/media/EyePhy-Screens.22213ca5bc422eddad72.png",
     "static/media/MouseClass-Screens.png": "/static/media/MouseClass-Screens.ebc7a4bdb3df10393c28.png",
     "static/media/Mouse-Class-logo.png": "/static/media/Mouse-Class-logo.408cdece6ff2e7641e7f.png",
-    "static/media/Resume.pdf": "/static/media/Resume.644560587f06fa959415.pdf",
+    "static/media/Resume.pdf": "/static/media/Resume.2e3f02270648318a82b0.pdf",
     "static/media/irina.jpg": "/static/media/irina.5e26d5bb3ac30e0b54e0.jpg",
     "static/media/covid-chart.jpeg": "/static/media/covid-chart.6446985e8b9437b89bd7.jpeg",
     "static/media/DataGrid.jpeg": "/static/media/DataGrid.05fa4296a1c326a1ab27.jpeg",
@@ -19,10 +19,10 @@
     "static/media/CCC-Logo.png": "/static/media/CCC-Logo.70352d5d0c25b535ede3.png",
     "index.html": "/index.html",
     "main.096201af.css.map": "/static/css/main.096201af.css.map",
-    "main.bf549254.js.map": "/static/js/main.bf549254.js.map"
+    "main.b77b4c7b.js.map": "/static/js/main.b77b4c7b.js.map"
   },
   "entrypoints": [
     "static/css/main.096201af.css",
-    "static/js/main.bf549254.js"
+    "static/js/main.b77b4c7b.js"
   ]
 }
