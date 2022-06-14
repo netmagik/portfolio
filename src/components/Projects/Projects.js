@@ -106,7 +106,7 @@ const Projects = () => {
                          return (
                             <article key={id} className="projects-item">
                                 <div className="projects-item-image">
-                                    <img className="single-image" src={image} alt={title} />
+                                    <img className="single-image" src={image} alt={title} loading="lazy"/>
                                 </div>
                                 <h3>{title}</h3>
                                 <p className="desc">{desc}</p>
@@ -127,7 +127,7 @@ const Projects = () => {
                          return (
                             <article key={id} className="projects-item">
                                 <div className="projects-item-image">
-                                    <img className="single-image" src={image} alt={title} />
+                                    <img className="single-image" src={image} alt={title} loading="lazy"/>
                                 </div>
                                 <h3>{title}</h3>
                                 <p className="desc">{desc}</p>
