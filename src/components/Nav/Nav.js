@@ -10,6 +10,7 @@ const Nav = () => {
 
         <nav>
             <a href="#home"
+                aria-label="Home"
                 onClick={() => setActiveNav('#')}
                 className={activeNav === '#' ? 'active' : ''} >
                 <AiOutlineHome />

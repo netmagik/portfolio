@@ -15,10 +15,10 @@ const Footer = () => {
                 <a href="#contact" className="border-effect">Contact</a>
             </div>
             <div className="footer-socials">
-                <a href="https://www.twitter.com/irinablumenfeld" target="_blank" alt="Twitter"><FiTwitter /></a>
-                <a href="https://github.com/netmagik/" target="_blank" alt="Github"><FiGithub /></a>
-                <a href="https://www.linkedin.com/pub/irina-blumenfeld/4/a99/a15" target="_blank" alt="LinkedIn"><FiLinkedin /></a>
-                <a href="https://codepen.io/netmagik/" target="_blank" alt="Codepen"><FiCodepen /></a>
+                <a href="https://www.twitter.com/irinablumenfeld" target="_blank" alt="Twitter" aria-label="Twitter"><FiTwitter /></a>
+                <a href="https://github.com/netmagik/" target="_blank" alt="Github" aria-label="Github"><FiGithub /></a>
+                <a href="https://www.linkedin.com/pub/irina-blumenfeld/4/a99/a15" target="_blank" alt="LinkedIn" aria-label="LinkedIn"><FiLinkedin /></a>
+                <a href="https://codepen.io/netmagik/" target="_blank" alt="Codepen" aria-label="Codepen"><FiCodepen /></a>
             </div>
 
             <div className="footer-copyright">
